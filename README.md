@@ -29,4 +29,4 @@ SerialTester는 Electron과 SerialPort 라이브러리를 사용하여 시리얼
 
 MIT
 
-## 해당 readme.md 는 codepilot 으로 작성되었습니다.
+#### 해당 readme.md 는 codepilot 으로 작성되었습니다.
