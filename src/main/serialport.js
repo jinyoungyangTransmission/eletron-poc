@@ -16,13 +16,8 @@ const ipcHandlers = {
     
         try {
             await open();
-            console.log('opened!');
-    
             await write(_data);
-            console.log('message written');
-    
             await close();
-            console.log('Port closed');
         } catch (err) {
             console.log('Error: ', err.message);
             return false;
