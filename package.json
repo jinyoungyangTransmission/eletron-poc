@@ -1,0 +1,29 @@
+{
+  "name": "electron-poc",
+  "productName": "SerialTester",
+  "description": "",
+  "main": "src/main/main.js",
+  "version": "0.0.1",
+  "scripts": {
+      "start": "electron .",
+      "dev": "electron . --trace-warnings",
+      "build": "electron-builder",
+      "rebuild": "electron-rebuild"
+  },
+  "build": {
+      "appId": "com.yogiyo.SerialTester",
+      "win": {
+          "target": "nsis"
+      },
+      "mac": {
+          "category": "public.app-category.utilities"
+      }
+  },
+  "devDependencies": {
+    "electron": "22"
+  },
+  "dependencies": {
+    "electron-builder": "22",
+    "serialport": "^12.0.0"
+  }
+}
